@@ -22,6 +22,8 @@ const TodoInput = () => {
         }
         addTodo(newTodo)
         setTodo("")
+        document.getElementById('input').value = ''
+
     }
     const handleChange = e => {
         e.preventDefault()
@@ -34,7 +36,7 @@ const TodoInput = () => {
     <h1>할일 등록</h1>
     <form onSubmit={submitForm} method='POST'>
         <div>
-            <input type="text" name="todo" onChange={handleChange}/><br/>
+            <input type="text" name="todo" id="input" onChange={handleChange}/><br/>
             <input type="submit" value="ADD TODO"/>
         </div>
     </form>
