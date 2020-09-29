@@ -69,3 +69,13 @@ react hook -> FP 주의자
 Javascript
 파라미터로 전달되는 
 Undefined 타입으로 정의하지 않았다. 
+
+
+*********************
+Dashboard template
+Usage
+Simply copy the files into your project, or one of the example applications, and import and use the Dashboard component.
+
+Demo
+View the demo at https://material-ui.com/getting-started/templates/dashboard/.
+********************
