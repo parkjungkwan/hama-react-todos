@@ -23,13 +23,15 @@ interface
 처치 교수(함수형) - 튜링 제자()
 test( param ) -> str:
    return ''
-test( param ):
+
+setName ( param ):
    self.name = param
+getName () -> str :
+   return self.name
+
 String test(param){ return "" }
 
 const test = () => {}
-
-★★★★ 위 식에서 return 키워드가 없어도 return 이 존재한다
 
 자연수 1, 2, 3, ...
 인도 0
@@ -42,7 +44,7 @@ object = attr + function (element)
 function = return + name + ( param )
 anonymous function = return + (param)
 
-Functional Expression
+Functional Expression case 4
 return, param
 F, F Runable : 무한동력 에너지 - 존재하지 않음
 F, T Consumer : setter
@@ -53,4 +55,17 @@ return 이라는 키워드가 없어도 return 은 존재한다.
 function 이라고 정의한 경우에는
 lambda함수는 함수다.
 
-case 4
+const test = () => {}
+
+[결론] 위 식에서 return 키워드가 없어도 return 이 존재한다
+
+OOP vs FP
+react class -> OOP 주의자
+react hook -> FP 주의자
+
+1 ~ 17
+16.8 hook
+
+Javascript
+파라미터로 전달되는 
+Undefined 타입으로 정의하지 않았다. 
